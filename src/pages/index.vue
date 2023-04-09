@@ -36,12 +36,12 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     <Section color="grey">
       <Container>
         <SideSectionIcons
-          subtitle="Performance"
-          title="Unlock your potential"
+          subtitle=""
+          title="តាមដានអវត្តមាន"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quos quidem tibi studiose et diligenter tractandos."
           :features="runningFeature"
-          image="/assets/illustrations/features/workout-feature-1.png"
-          dark-image="/assets/illustrations/features/workout-feature-1-dark.png"
+          image="../../public/assets/educheck/3.png"
+          dark-image="../../public/assets/educheck/3.png"
           blob
         />
       </Container>
@@ -50,12 +50,12 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     <Section color="grey">
       <Container>
         <SideSectionIcons
-          subtitle="Tracking"
-          title="Track your progress"
+          subtitle=""
+          title="តាមដានកាលវិភាគ"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quos quidem tibi studiose et diligenter tractandos."
           :features="reportFeature"
-          image="/assets/illustrations/features/workout-feature-2.png"
-          dark-image="/assets/illustrations/features/workout-feature-2-dark.png"
+          image="../../public/assets/educheck/4.png"
+          dark-image="../../public/assets/educheck/4.png"
           blob
           reverse
         />

@@ -57,7 +57,7 @@ const blobClasses = computed(() => [props.color && `is-${props.color}`])
 
   svg,
   svg circle {
-    fill: var(--primary);
+    fill: hsla(0, 91, 66, 0.898);
   }
 
   .circle-1 {

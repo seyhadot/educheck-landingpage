@@ -11,17 +11,17 @@ setTimeout(() => {
   <Hero color="grey" class="product-hero" size="fullheight" mask="wave">
     <template #body>
       <div class="columns is-vcentered">
-        <div class="column is-5">
+        <div class="column is-5 mb-5">
           <Title tag="h1" :size="2" weight="bold" class="kh">
             <span class="kh text-primary">EDUCHECK</span>
             កម្មវិធីសំរាប់តាមដានការសិក្សារបស់សិស្ស
             <!-- <span class="text-primary">Parents</span> -->
           </Title>
-          <Subtitle tag="p" :size="5" classes="b-centered-tablet-p text-medium">
-            Work hard. Bring together your discussions , memberships, and
-            content. Integrate a thriving community all under your own
-            motivation.
-          </Subtitle>
+          <Subtitle
+            tag="p"
+            :size="5"
+            classes="b-centered-tablet-p text-medium"
+          ></Subtitle>
           <!--Buttons-->
 
           <div class="buttons is-relative z-1">
@@ -36,8 +36,8 @@ setTimeout(() => {
             <div class="image-container">
               <DarkImage
                 class="main-image"
-                src="/assets/illustrations/apps/mobile-app-single.png"
-                src-dark="/assets/illustrations/apps/mobile-app-single-dark.png"
+                src="/assets/educheck/1.png"
+                src-dark="/assets/educheck/2.png"
                 alt="Hero mockup"
                 width="562"
                 height="1000"
@@ -45,8 +45,8 @@ setTimeout(() => {
               <DarkImage
                 class="sub-image"
                 :class="translated"
-                src="/assets/illustrations/apps/mobile-app-sub.png"
-                src-dark="/assets/illustrations/apps/mobile-app-sub-dark.png"
+                src="/assets/educheck/2.png"
+                src-dark="/assets/educheck/1.png"
                 alt="Hero mockup"
                 width="562"
                 height="1000"
@@ -105,6 +105,9 @@ setTimeout(() => {
     .main-image {
       position: relative;
       z-index: 1;
+      &:hover {
+        z-index: 999;
+      }
     }
 
     .sub-image {
@@ -117,6 +120,9 @@ setTimeout(() => {
 
       &.is-translated {
         transform: translate(6rem, 3rem);
+      }
+      &:hover {
+        z-index: 999;
       }
     }
 

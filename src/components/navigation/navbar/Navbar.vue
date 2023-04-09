@@ -77,7 +77,7 @@ watch(
         class="navbar-menu b-centered-mobile b-centered-tablet-p"
         :class="[isNavbarOpen && 'is-active']"
       >
-        <div class="navbar-start">
+        <!-- <div class="navbar-start">
           <a
             role="button"
             class="navbar-item"
@@ -121,14 +121,13 @@ watch(
             <span class="has-naver mr-1">Resources</span>
             <i class="iconify" data-icon="feather:chevron-down"></i>
           </a>
-        </div>
+        </div> -->
         <div class="navbar-end">
           <div
             class="navbar-item is-flex is-align-items-center is-justify-content-center"
           >
             <ThemeToggle />
           </div>
-        
         </div>
       </div>
     </div>
