@@ -38,7 +38,8 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
         <SideSectionIcons
           subtitle=""
           title="តាមដានអវត្តមាន"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quos quidem tibi studiose et diligenter tractandos."
+          content="អ្នកនឹងទទួលបានពត៌មានស្តីពីវត្តមានរបស់អ្នកនៅក្នុងថ្នាក់រៀន បន្ទាប់ពីលោកគ្រូអ្នកគ្រូកត់វត្តមានរបស់អ្នកចំណាត់ថ្នាក់ និងពិន្ទុ
+អ្នកនឹងទទួលបានពត៌មានស្តីពីពិន្ទុ និងចំណាត់ថ្នាក់"
           :features="runningFeature"
           image="../../public/assets/educheck/3.png"
           dark-image="../../public/assets/educheck/3.png"
@@ -52,7 +53,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
         <SideSectionIcons
           subtitle=""
           title="តាមដានកាលវិភាគ"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quos quidem tibi studiose et diligenter tractandos."
+          content="មើកកាលវិភាគសិក្សាប្រចាំថ្ងៃរបស់អ្នក"
           :features="reportFeature"
           image="../../public/assets/educheck/4.png"
           dark-image="../../public/assets/educheck/4.png"
@@ -89,9 +90,8 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     <Section tongue="tongue-1">
       <Container>
         <PricingDuo
-          title="Our plans"
-          subtitle="Duplexque isdem diebus acciderat malum, quod et Theophilum insontem
-              atrox interceperat casus."
+          title="គម្រោងរបស់កម្មវិធី"
+          subtitle="កម្មវិធីនេះនឹងប្រើប្រាស់ដោយឥតគិតថ្លៃ ដោយគ្រាន់តែសិស្សធ្វើការជាវកាតសិស្សចេញពីសាលារៀនរបស់ពួកគេ"
           :plans="workoutPricingPlans"
           rounded
           polka-dots

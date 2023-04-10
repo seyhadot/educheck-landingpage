@@ -32,7 +32,7 @@ const blockClasses = computed(() => [props.pulled && 'is-pulled'])
 
 const cardClasses = computed(() => [props.rounded && 'is-rounded'])
 
-const toggle = ref(false)
+const toggle = ref(true)
 </script>
 
 <template>
@@ -49,11 +49,11 @@ const toggle = ref(false)
           <!-- Pricing switcher -->
           <div class="button-wrap">
             <div class="combo-button">
-              <Button :class="!toggle && 'is-active'" @click="toggle = !toggle">
+              <!-- <Button :class="!toggle && 'is-active'" @click="toggle = !toggle">
                 Monthly
-              </Button>
+              </Button> -->
               <Button :class="toggle && 'is-active'" @click="toggle = !toggle">
-                Yearly
+                ប្រចាំឆ្នាំ
               </Button>
             </div>
           </div>
@@ -93,9 +93,9 @@ const toggle = ref(false)
               </div>
               <div class="price-per">per year</div>
             </div>
-            <div class="plan-action">
+            <!-- <div class="plan-action">
               <Button color="primary" :long="3" raised>Try Now</Button>
-            </div>
+            </div> -->
           </div>
           <div v-if="props.polkaDots && index === 1" class="polka-wrap polka-2">
             <PolkaDots />
