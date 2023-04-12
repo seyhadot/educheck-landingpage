@@ -49,7 +49,7 @@ const props = withDefaults(defineProps<AppSectionShapesProps>(), {
             />
           </div>
 
-          <div class="columns has-text-left b-columns-third-tablet-p mt-4">
+          <div class="columns has-text-centered b-columns-third-tablet-p mt-4">
             <div
               v-for="(feature, index) in props.features.slice(0, 3)"
               :key="index"

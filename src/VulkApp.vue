@@ -4,7 +4,7 @@ import { useLayout } from '/@src/composable/useLayout'
 const { LayoutComponent } = useLayout()
 
 useHead({
-  title: 'Vulk - Vue 3 Landing Pages',
+  title: 'Educheck - Landing Pages',
   htmlAttrs: {
     lang: 'en-US',
   },

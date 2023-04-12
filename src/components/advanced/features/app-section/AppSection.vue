@@ -37,7 +37,7 @@ const props = withDefaults(defineProps<AppSectionProps>(), {
             />
           </div>
 
-          <div class="columns has-text-left b-columns-third-tablet-p mt-4">
+          <div class="columns has-text-centered b-columns-third-tablet-p mt-4">
             <div
               v-for="(feature, index) in props.features.slice(0, 3)"
               :key="index"
@@ -53,7 +53,9 @@ const props = withDefaults(defineProps<AppSectionProps>(), {
                   >
                     <span>{{ feature.title }}</span>
                   </Title>
-                  <p class="subtitle is-6 text-medium">{{ feature.text }}</p>
+                  <p class="subtitle is-6 text-medium has-text-centered">
+                    {{ feature.text }}
+                  </p>
                 </div>
               </div>
             </div>

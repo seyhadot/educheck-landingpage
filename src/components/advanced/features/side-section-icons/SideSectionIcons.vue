@@ -84,7 +84,7 @@ const textClasses = computed(() => [props.inverted && `is-inverted`])
           </slot>
         </div>
       </div>
-      <div class="column is-6 has-text-centered is-relative">
+      <div class="column is-6 has-text-centered is-relative blob-img">
         <Blob v-if="props.blob" />
 
         <DarkImage
@@ -141,6 +141,12 @@ const textClasses = computed(() => [props.inverted && `is-inverted`])
     &.is-bordered {
       border-bottom-color: var(--dark-border);
     }
+  }
+}
+
+.blob-img {
+  img {
+    width: 55%;
   }
 }
 

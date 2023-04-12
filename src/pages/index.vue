@@ -65,12 +65,12 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
 
     <Section>
       <Container>
-        <SectionTitle title="Lifestyle dashboard" subtitle="Live the life" />
+        <SectionTitle title="តាមដានពិន្ទុប្រចាំខែ / ប្រចាំឆមាស" subtitle="" />
 
         <AppSectionShapes
           :features="dashboardFeature"
-          image="/assets/illustrations/apps/personal-dashboard.png"
-          dark-image="/assets/illustrations/apps/personal-dashboard-dark.png"
+          image="../../public/assets/educheck/wall.png"
+          dark-image="../../public/assets/educheck/wall.png"
           blob
         />
       </Container>
