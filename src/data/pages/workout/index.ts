@@ -93,15 +93,15 @@ export const reportFeature: SimpleIconFeature[] = [
 
 export const dashboardFeature: BaseFeature[] = [
   {
-    title: 'Intuitive',
+    title: 'ចំណាត់ថ្នាក់ប្រចាំខែ',
     text: 'Our app is very intuitive and simple to use, even for tech-savy users.',
   },
   {
-    title: 'Powerful',
+    title: 'ពិន្ទុតាមមុខវិជ្ជា',
     text: 'We agregate everything that matters in calculating your optimal lifestyle.',
   },
   {
-    title: 'Healthy',
+    title: 'ផ្លាស់ប្តូរ គណនី',
     text: 'Our app focuses on keeping you healthy, whatever lifestyle you have.',
   },
 ]

@@ -52,6 +52,7 @@ const titleClasses = computed(() => [
   font-family: var(--font-alt);
   color: var(--title-color);
   line-height: 1.4;
+  padding: 9px;
 
   &.is-inverted {
     color: var(--title-color-inverted);
