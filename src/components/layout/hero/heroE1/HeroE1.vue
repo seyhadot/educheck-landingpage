@@ -26,8 +26,8 @@ setTimeout(() => {
 
           <div class="buttons is-relative z-1">
             <DownloadCta
-              apple-url="https://apple.com"
-              google-url="https://google.com"
+              apple-url="https://apps.apple.com/kh/app/educheck/id6446472860"
+              google-url="https://play.google.com/store/apps/details?id=com.educheck.app"
             />
           </div>
         </div>

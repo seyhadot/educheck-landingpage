@@ -91,7 +91,7 @@ const toggle = ref(true)
                   ${{ plan.price.yearly.toFixed(2) }}
                 </Title>
               </div>
-              <div class="price-per">per year</div>
+              <div class="price-per">ក្នុងមួយឆ្នាំ</div>
             </div>
             <!-- <div class="plan-action">
               <Button color="primary" :long="3" raised>Try Now</Button>

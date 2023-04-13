@@ -251,7 +251,7 @@ const footerClasses = computed(() => [
         <div class="py-4">
           <span class="footer-text rem-90">
             <span role="img" aria-label="copyright">©</span>
-            2020-2021 Vulk. All rights reserved.
+            2023-Present Cosmos Digital. All rights reserved.
           </span>
         </div>
         <div class="has-text-centered">

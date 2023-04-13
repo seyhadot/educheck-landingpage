@@ -10,7 +10,7 @@ const props = defineProps<AppButtonProps>()
 </script>
 
 <template>
-  <RouterLink :to="props.url" class="app-button">
+  <a :href="props.url" class="app-button" target="_blank">
     <img
       v-if="props.type === 'apple'"
       src="/assets/appstore/app-store.svg"
@@ -21,7 +21,7 @@ const props = defineProps<AppButtonProps>()
       src="/assets/appstore/google-play.svg"
       alt="Download on Google Play"
     />
-  </RouterLink>
+  </a>
 </template>
 
 <style scoped lang="scss">

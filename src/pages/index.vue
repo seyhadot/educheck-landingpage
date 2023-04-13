@@ -79,8 +79,8 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     <Section>
       <Container>
         <SectionTitle
-          title="Update your lifestyle"
-          subtitle="A simple process"
+          title="បន្ទាន់សម័យការសិក្សារបស់អ្នក"
+          subtitle="ដំណើរការងាយៗសម្រាប់"
         />
 
         <TimelineFeatures :items="workoutTimeline" />
@@ -99,9 +99,9 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
-    <TestimonialsCarouselColor :slides="workoutTestimonials" />
+    <!-- <TestimonialsCarouselColor :slides="workoutTestimonials" /> -->
 
-    <Section tongue="tongue-2" bottom-narrow>
+    <!-- <Section tongue="tongue-2" bottom-narrow>
       <Container>
         <SectionTitle
           title="Take the time to read our FAQs"
@@ -128,13 +128,12 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
           animated
         />
       </Container>
-    </Section>
+    </Section> -->
 
     <FooterD
       text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare
                 non possum. Apparet statim, quae sint officia, quae actiones."
       color="default"
-      :social-links="socialLinks"
     />
   </div>
 </template>

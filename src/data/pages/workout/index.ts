@@ -94,38 +94,38 @@ export const reportFeature: SimpleIconFeature[] = [
 export const dashboardFeature: BaseFeature[] = [
   {
     title: 'ចំណាត់ថ្នាក់ប្រចាំខែ',
-    text: 'Our app is very intuitive and simple to use, even for tech-savy users.',
+    text: '',
   },
   {
     title: 'ពិន្ទុតាមមុខវិជ្ជា',
-    text: 'We agregate everything that matters in calculating your optimal lifestyle.',
+    text: '',
   },
   {
     title: 'ផ្លាស់ប្តូរ គណនី',
-    text: 'Our app focuses on keeping you healthy, whatever lifestyle you have.',
+    text: '',
   },
 ]
 
 export const workoutTimeline = [
   {
     icon: 'ph:device-mobile-camera-duotone',
-    title: 'Install the app',
-    text: 'Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum inermis iudicabit.',
+    title: 'តំឡើងកម្មវិធី',
+    text: 'ចូលទៅក្នុង Playstore ឬ Appstore ដើម្បីតំឡើងកម្មវិធី',
   },
   {
     icon: 'ph:user-circle-plus-duotone',
-    title: 'Build your profile',
-    text: 'Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum inermis iudicabit.',
+    title: 'ចូលប្រើចូលគណនី',
+    text: 'សាកសួរសាលារបស់អ្នកពីព័ត៌មានអំពីគណនីរបស់អ្នក និងផ្លាស់ប្តូរពាក្យសម្ងាត់នៅពេលចូលប្រើ',
   },
   {
-    icon: 'ph:circles-three-duotone',
-    title: 'Choose a program',
-    text: 'Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum inermis iudicabit.',
+    icon: 'ph:credit-card-duotone',
+    title: 'ជាវកាត',
+    text: 'ជាវកាតពីសាលារបស់អ្នកដើម្បីប្រើប្រាស់កម្មវិធីនេះប្រចាំឆ្នាំ',
   },
   {
     icon: 'ph:confetti-duotone',
-    title: 'Reach success',
-    text: 'Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum inermis iudicabit.',
+    title: 'ចាប់ផ្តើមប្រើ',
+    text: 'ចូលប្រើប្រាស់កម្មវិធីដោយជោគជ័យ',
   },
 ]
 
