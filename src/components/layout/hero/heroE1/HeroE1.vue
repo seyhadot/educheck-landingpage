@@ -14,7 +14,7 @@ setTimeout(() => {
         <div class="column is-5 mb-5">
           <Title tag="h1" :size="2" weight="bold" class="kh">
             <span class="kh text-primary">EDUCHECK</span>
-            កម្មវិធីសំរាប់តាមដានការសិក្សារបស់សិស្ស
+            ជាកម្មវិធី សម្រាប់ផ្តល់ព័ត៌មានសិក្សាដល់សិស្ស និងអាណាព្យាបាល
             <!-- <span class="text-primary">Parents</span> -->
           </Title>
           <Subtitle
@@ -85,6 +85,7 @@ setTimeout(() => {
     <template #footer>
       <div class="mx-auto max-w-8">
         <div class="tabs is-centered pb-4">
+          <span class="text-center"></span>
           <HeroClients :logos="customerLogos" />
         </div>
       </div>

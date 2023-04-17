@@ -41,7 +41,7 @@ const footerClasses = computed(() => [
           <div class="columns is-flex-tablet is-flex-mobile">
             <div class="column is-4">
               <div class="footer-group">
-                <slot name="column-1">
+                <!-- <slot name="column-1">
                   <Title
                     tag="h3"
                     :size="6"
@@ -92,12 +92,12 @@ const footerClasses = computed(() => [
                       </RouterLink>
                     </li>
                   </ul>
-                </slot>
+                </slot> -->
               </div>
             </div>
             <div class="column is-4">
               <div class="footer-group">
-                <slot name="column-2">
+                <!-- <slot name="column-2">
                   <Title
                     tag="h3"
                     :size="6"
@@ -148,12 +148,12 @@ const footerClasses = computed(() => [
                       </RouterLink>
                     </li>
                   </ul>
-                </slot>
+                </slot> -->
               </div>
             </div>
             <div class="column is-4">
               <div class="footer-group">
-                <slot name="column-3">
+                <!-- <slot name="column-3">
                   <Title
                     tag="h3"
                     :size="6"
@@ -204,7 +204,7 @@ const footerClasses = computed(() => [
                       </RouterLink>
                     </li>
                   </ul>
-                </slot>
+                </slot> -->
               </div>
             </div>
           </div>
@@ -212,7 +212,7 @@ const footerClasses = computed(() => [
 
         <div class="column is-4 b-centered-mobile b-centered-tablet-p">
           <div class="footer-group">
-            <a
+            <!-- <a
               class="is-flex j-center-mobile j-center-tablet-p footer-logo-left css-ninja"
               href="#"
             >
@@ -225,9 +225,9 @@ const footerClasses = computed(() => [
             </a>
             <p class="footer-text rem-90 max-w-3 mt-4 b-centered-tablet-p">
               {{ props.text }}
-            </p>
+            </p> -->
 
-            <div class="level is-mobile py-4 max-w-1 small:mx-auto">
+            <!-- <div class="level is-mobile py-4 max-w-1 small:mx-auto">
               <RouterLink
                 v-for="(link, index) in props.socialLinks"
                 :key="index"
@@ -239,7 +239,7 @@ const footerClasses = computed(() => [
                   <span class="is-sr-only">{{ link.name }}</span>
                 </span>
               </RouterLink>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -255,7 +255,7 @@ const footerClasses = computed(() => [
           </span>
         </div>
         <div class="has-text-centered">
-          <Field grouped>
+          <!-- <Field grouped>
             <Control icon="feather:mail" expanded>
               <VInput
                 placeholder="Email Address"
@@ -265,7 +265,7 @@ const footerClasses = computed(() => [
             <Control>
               <Button color="primary" size="form">Subscribe</Button>
             </Control>
-          </Field>
+          </Field> -->
         </div>
       </div>
     </div>

@@ -88,10 +88,10 @@ const toggle = ref(true)
             <div v-else>
               <div class="plan-price">
                 <Title tag="h3" :size="4" weight="bold" narrow>
-                  ${{ plan.price.yearly.toFixed(2) }}
+                  <!-- ${{ plan.price.yearly.toFixed(2) }} -->
                 </Title>
               </div>
-              <div class="price-per">ក្នុងមួយឆ្នាំ</div>
+              <div class="price-per"></div>
             </div>
             <!-- <div class="plan-action">
               <Button color="primary" :long="3" raised>Try Now</Button>

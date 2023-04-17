@@ -57,11 +57,13 @@ watch(
         <RouterLink v-preload-link class="navbar-item" to="/">
           <img
             class="navbar-logo"
-            src="/assets/logo/logo.svg"
+            src="/assets/logo/educheck_logo.png"
             alt="logo"
-            width="80"
-            height="80"
+            width="150"
+            height="150"
           />
+          &nbsp;
+          <span>EduCheck</span>
         </RouterLink>
         <div
           class="navbar-burger"

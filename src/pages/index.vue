@@ -37,9 +37,8 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       <Container>
         <SideSectionIcons
           subtitle=""
-          title="តាមដានអវត្តមាន"
-          content="អ្នកនឹងទទួលបានពត៌មានស្តីពីវត្តមានរបស់អ្នកនៅក្នុងថ្នាក់រៀន បន្ទាប់ពីលោកគ្រូអ្នកគ្រូកត់វត្តមានរបស់អ្នកចំណាត់ថ្នាក់ និងពិន្ទុ
-អ្នកនឹងទទួលបានពត៌មានស្តីពីពិន្ទុ និងចំណាត់ថ្នាក់"
+          title="វត្តមានសិក្សា"
+          content="អ្នកនឹងទទួលបានពត៌មានស្តីពីវត្តមានសិក្សារបស់អ្នកនៅក្នុងថ្នាក់រៀន បន្ទាប់ពីលោកគ្រូអ្នកគ្រូកត់វត្តមានរបស់អ្នក"
           :features="runningFeature"
           image="../../public/assets/educheck/3.png"
           dark-image="../../public/assets/educheck/3.png"
@@ -52,7 +51,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       <Container>
         <SideSectionIcons
           subtitle=""
-          title="តាមដានកាលវិភាគ"
+          title="កាលវិភាគសិក្សា"
           content="មើកកាលវិភាគសិក្សាប្រចាំថ្ងៃរបស់អ្នក"
           :features="reportFeature"
           image="../../public/assets/educheck/4.png"
@@ -65,7 +64,10 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
 
     <Section>
       <Container>
-        <SectionTitle title="តាមដានពិន្ទុប្រចាំខែ / ប្រចាំឆមាស" subtitle="" />
+        <SectionTitle
+          title="តាមដានពិន្ទុប្រចាំខែ / ប្រចាំឆមាស / ប្រចាំឆ្នាំ"
+          subtitle=""
+        />
 
         <AppSectionShapes
           :features="dashboardFeature"
@@ -79,7 +81,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     <Section>
       <Container>
         <SectionTitle
-          title="បន្ទាន់សម័យការសិក្សារបស់អ្នក"
+          title="ត្រួតពិនិត្យការសិក្សារបស់អ្នក"
           subtitle="ដំណើរការងាយៗសម្រាប់"
         />
 
