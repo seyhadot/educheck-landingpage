@@ -106,7 +106,7 @@ const navbarMenuClasses = computed(() => [isNavbarOpen.value && `is-active`])
       display: block;
       width: 100%;
       max-width: 140px;
-      max-height: 38px;
+      max-height: 60px;
     }
 
     .navbar-burger {

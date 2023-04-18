@@ -8,35 +8,38 @@
 0. Typography CSS variables
 ========================================================================== */
 
+@import 'https://fonts.googleapis.com/css2?family=Preahvihear&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';
 
 .kh{
   /* stylelint-disable-next-line font-family-name-quotes */
-  font-family: 'Battambang', 'KHmuolpali', cursive;
+  font-family: 'Battambang', 'Preahvihear', cursive;
 }
 
-@font-face {
-  /* stylelint-disable-next-line font-family-name-quotes */
-  font-family: 'KHmuolpali';
-  src: url("./KhmerOSmuolpali.ttf");
-}
+// @font-face {
+//   /* stylelint-disable-next-line font-family-name-quotes */
+//   font-family: 'Moulpali';
+//   src: url("./KhmerOSmuolpali.ttf");
+// }
 
 @font-face {
   /* stylelint-disable-next-line font-family-name-quotes */
   font-family: 'Battambang';
-  src: url("./Battambang-Black.ttf");
+  src: url("./Battambang-Regular.ttf");
 }
 
 
 :root {
   
-  --font: , 'KHmuolpali', 'Battambang', 'KHmuolpali', sans-serif;
-  --font-alt: 'KHmuolpali', sans-serif;
+  --font: , 'Preahvihear', 'Roboto', sans-serif;
+  --font-alt: 'Preahvihear', sans-serif;
   --title-color: var(--dark-text);
   --title-color-inverted: var(--white-smoke);
   --paragraph-color: var(--medium-text);
   --paragraph-color-inverted: var(--light-text);
   --code-bg-color: var(--widget-grey);
   --code-color: var(--success);
+  --paragraph: 'Battambang', 'Roboto', sans-serif;
 }
 
 .is-dark {

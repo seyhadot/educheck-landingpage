@@ -65,7 +65,7 @@ watch(
           &nbsp;
           <span>EduCheck</span>
         </RouterLink>
-        <div
+        <!-- <div
           class="navbar-burger"
           role="button"
           tabindex="0"
@@ -73,7 +73,7 @@ watch(
           @keydown.space.prevent="() => (isNavbarOpen = !isNavbarOpen)"
         >
           <Hamburger :open="isNavbarOpen" />
-        </div>
+        </div> -->
       </div>
       <div
         class="navbar-menu b-centered-mobile b-centered-tablet-p"
@@ -128,7 +128,7 @@ watch(
           <div
             class="navbar-item is-flex is-align-items-center is-justify-content-center"
           >
-            <ThemeToggle />
+            <!-- <ThemeToggle /> -->
           </div>
         </div>
       </div>
@@ -163,7 +163,7 @@ watch(
       display: block;
       width: 100%;
       max-width: 110px;
-      max-height: 38px;
+      max-height: 58px;
     }
 
     .navbar-logo-text {

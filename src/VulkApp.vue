@@ -12,7 +12,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/svg+xml',
-      href: '/assets/logo/logo.svg',
+      href: '/assets/educheck/logo.png',
     },
     {
       rel: 'alternate icon',
@@ -48,9 +48,14 @@ useHead({
   <component :is="LayoutComponent" />
 
   <ClientOnly>
-    <ReloadPrompt app-name="Vulk">
+    <ReloadPrompt app-name="EduCheck">
       <template #logo>
-        <img src="/assets/logo/logo.svg" alt="logo" width="80" height="80" />
+        <img
+          src="../public/assets/educheck/logo.png"
+          alt="logo"
+          width="80"
+          height="80"
+        />
       </template>
     </ReloadPrompt>
   </ClientOnly>
