@@ -40,8 +40,8 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
           title="វត្តមានសិក្សា"
           content="អ្នកនឹងទទួលបានពត៌មានស្តីពីវត្តមានសិក្សារបស់អ្នកនៅក្នុងថ្នាក់រៀន បន្ទាប់ពីលោកគ្រូអ្នកគ្រូកត់វត្តមានរបស់អ្នក"
           :features="runningFeature"
-          image="../../public/assets/educheck/3.png"
-          dark-image="../../public/assets/educheck/3.png"
+          image="https://firebasestorage.googleapis.com/v0/b/educheck-9cb55.appspot.com/o/3.png?alt=media&token=a6f7da5d-1381-453c-9751-4712cb54aa51"
+          dark-image="https://firebasestorage.googleapis.com/v0/b/educheck-9cb55.appspot.com/o/3.png?alt=media&token=a6f7da5d-1381-453c-9751-4712cb54aa51"
           blob
         />
       </Container>
@@ -54,8 +54,8 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
           title="កាលវិភាគសិក្សា"
           content="មើកកាលវិភាគសិក្សាប្រចាំថ្ងៃរបស់អ្នក"
           :features="reportFeature"
-          image="../../public/assets/educheck/4.png"
-          dark-image="../../public/assets/educheck/4.png"
+          image="https://firebasestorage.googleapis.com/v0/b/educheck-9cb55.appspot.com/o/4.png?alt=media&token=8177ab67-b560-473e-b2b0-2746ed40078c"
+          dark-image="https://firebasestorage.googleapis.com/v0/b/educheck-9cb55.appspot.com/o/4.png?alt=media&token=8177ab67-b560-473e-b2b0-2746ed40078c"
           blob
           reverse
         />
@@ -71,8 +71,8 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
 
         <AppSectionShapes
           :features="dashboardFeature"
-          image="../../public/assets/educheck/wall.png"
-          dark-image="../../public/assets/educheck/wall.png"
+          image="https://firebasestorage.googleapis.com/v0/b/educheck-9cb55.appspot.com/o/wall.png?alt=media&token=1de9b1c4-35fc-498c-8a8f-c6027f327545"
+          dark-image="https://firebasestorage.googleapis.com/v0/b/educheck-9cb55.appspot.com/o/wall.png?alt=media&token=1de9b1c4-35fc-498c-8a8f-c6027f327545"
           blob
         />
       </Container>
