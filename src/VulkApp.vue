@@ -26,6 +26,10 @@ useHead({
   ],
   meta: [
     {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1',
+    },
+    {
       name: 'Educheck Cambodia',
       content:
         'EduCheck is a modern ERP for School Management System (SMS). EduCheck is an ERP for School Management System (SMS) designed to help school principal, teachers managing their administration, scoring, student profile and follow-up attendance of students. EduCheck also helps parents to receiving inform and information about their children on daily basic. They system is also a tool for school & parent communication to ensure the study of the children. Our system (EduCheck) Is designed in the compliant process to general education system of MoEYS of Cambodia. Our system is comprised of Web Backend, mobile app for both Andriod & IOS. Our mobile app is for management, teachers, students and parents that is on our SMS product. EduCheck is a product of PRIORDIGI and powered by COSMOSDIGITAL.',
