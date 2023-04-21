@@ -11,7 +11,7 @@ setTimeout(() => {
   <Hero color="grey" class="product-hero" size="fullheight" mask="wave">
     <template #body>
       <div class="columns is-vcentered">
-        <div class="column is-5 mb-5">
+        <div class="column is-5 mb-5 font-change">
           <Title tag="h1" :size="2" weight="bold" class="kh">
             <span class="kh text-primary">EDUCHECK</span>
             ជាកម្មវិធី សម្រាប់ផ្តល់ព័ត៌មានសិក្សាដល់សិស្ស និងអាណាព្យាបាល
