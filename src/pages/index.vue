@@ -101,6 +101,15 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
+    <Section>
+      <Container>
+        <SectionTitle
+          title="093 556-675 & 015 427-757"
+          subtitle="ទំនាក់ទំនងដើម្បីប្រើប្រាស់កម្មវិធី"
+        />
+      </Container>
+    </Section>
+
     <!-- <TestimonialsCarouselColor :slides="workoutTestimonials" /> -->
 
     <!-- <Section tongue="tongue-2" bottom-narrow>

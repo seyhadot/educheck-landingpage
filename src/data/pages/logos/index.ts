@@ -3,10 +3,6 @@ export const customerLogos = [
     id: 0,
     logo: '/assets/logo/educheck_logo.png',
   },
-  {
-    id: 0,
-    logo: '/assets/logo/cosmos_logo.png',
-  },
 ]
 
 export const customerLogos2 = [

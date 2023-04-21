@@ -52,7 +52,7 @@ setTimeout(() => {
                 height="1000"
               />
               <!--Floating avatar-->
-              <div class="floating-avatar floating-avatar-1">
+              <!-- <div class="floating-avatar floating-avatar-1">
                 <AvatarSimple
                   picture="data:image/gif;base64,replace_with_your_image"
                   size="large"
@@ -75,7 +75,7 @@ setTimeout(() => {
                   picture="data:image/gif;base64,replace_with_your_image"
                   size="medium"
                 />
-              </div>
+              </div> -->
             </div>
             <div class="hero-bg-circle"></div>
           </div>

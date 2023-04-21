@@ -31,8 +31,8 @@
 
 :root {
   
-  --font: , 'Moulpali', 'Roboto', sans-serif;
-  --font-alt: 'Moulpali', sans-serif;
+  --font: , 'Preahvihear', 'Roboto', sans-serif;
+  --font-alt: 'Preahvihear', sans-serif;
   --title-color: var(--dark-text);
   --title-color-inverted: var(--white-smoke);
   --paragraph-color: var(--medium-text);
@@ -46,4 +46,17 @@
   --title-color: var(--white-smoke);
   --code-bg-color: var(--night-light-14);
   --code-color: var(--success);
+}
+
+
+.font-change{
+  .title{
+    font-family: 'Moulpali', 'Roboto', sans-serif;
+  }
+}
+
+.has-text-centered{
+  .subtitle{
+    line-height: 1.5;
+  }
 }
