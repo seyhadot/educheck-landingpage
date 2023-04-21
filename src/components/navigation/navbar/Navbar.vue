@@ -158,6 +158,7 @@ watch(
 
   .navbar-brand {
     height: 70px;
+    justify-content: center;
 
     .navbar-logo {
       display: block;
