@@ -251,7 +251,8 @@ const footerClasses = computed(() => [
         <div class="py-4">
           <span class="footer-text rem-90">
             <span role="img" aria-label="copyright">©</span>
-            2023-Present Cosmos Digital. All rights reserved.
+            Copyright 2023 PriorDigi, All Rights Reserved. Powered by Cosmos
+            Digital
           </span>
         </div>
         <div class="has-text-centered">
