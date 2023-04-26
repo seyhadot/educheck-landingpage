@@ -104,7 +104,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     <Section>
       <Container>
         <SectionTitle
-          title="093 556-675 & 015 427-757"
+          title="093 556-675, 015 427-757, 012512661"
           subtitle="ទំនាក់ទំនងដើម្បីប្រើប្រាស់កម្មវិធី"
         />
       </Container>

@@ -256,6 +256,13 @@ const footerClasses = computed(() => [
           </span>
         </div>
         <div class="has-text-centered">
+          <span>
+            <img
+              style="width: 120px"
+              src="https://firebasestorage.googleapis.com/v0/b/educheck-9cb55.appspot.com/o/cosmos_logo.png?alt=media&token=33408b0a-cc6f-4c19-a210-f2b0c6ad9b4d"
+              alt="Footer logo"
+            />
+          </span>
           <!-- <Field grouped>
             <Control icon="feather:mail" expanded>
               <VInput
